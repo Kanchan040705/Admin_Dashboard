@@ -13,7 +13,7 @@ This project demonstrates how to create a fully functional admin panel using pop
 - 📑 **Collapsible Sidebar** (React Pro Sidebar)
 - 🔐 **Scalable & Extendable Architecture**
 ---
-<img width="1907" height="931" alt="image" src="https://github.com/user-attachments/assets/84865fb3-12a4-4f6b-9b22-9d48c4dc76c6" />
+
 
 
 ## 🚀 Features
@@ -26,11 +26,6 @@ This project demonstrates how to create a fully functional admin panel using pop
 - ✅ **Theming & Dark Mode** with MUI + custom `tokens`
 - ✅ **Reusable Components**: Stat boxes, progress circles, headers
 
----
-<img width="1900" height="930" alt="image" src="https://github.com/user-attachments/assets/033011a6-6d3e-4295-be6f-b9e8de81974d" />
-<img width="1897" height="921" alt="image" src="https://github.com/user-attachments/assets/68e09f45-367b-4987-b505-1e43e551a098" />
-<img width="1907" height="906" alt="image" src="https://github.com/user-attachments/assets/b819ee32-5892-4234-a606-e8ae7de4ec36" />
-<img width="1907" height="910" alt="image" src="https://github.com/user-attachments/assets/d2c82f2f-d709-4671-8e97-592020a2dc16" />
 
 ## 🛠️ Tech Stack
 
