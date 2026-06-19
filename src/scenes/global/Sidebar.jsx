@@ -111,7 +111,7 @@ const Sidebar = () => {
                 ml="15px"
               >
                 <Typography variant="h3" color={colors.grey[100]}>
-                  ADMINIS {/* Logo text */}
+                  KANCHAN{/* Logo text */}
                 </Typography>
                 <IconButton onClick={() => setIsCollapsed(!isCollapsed)}>
                   <MenuOutlinedIcon /> {/* Collapse button */}
@@ -139,10 +139,10 @@ const Sidebar = () => {
                   fontWeight="bold"
                   sx={{ m: "10px 0 0 0" }}
                 >
-                  Srijith  {/* User name */}
+                  Kanchan  {/* User name */}
                 </Typography>
                 <Typography variant="h5" color={colors.greenAccent[500]}>
-                  VP Fancy Admin {/* User role */}
+                  Web Developer {/* User role */}
                 </Typography>
               </Box>
             </Box>
@@ -159,17 +159,6 @@ const Sidebar = () => {
               setSelected={setSelected}
             />
 
-            {/* SubMenu example under Dashboard */}
-            <SubMenu title="Test Submenu" icon={<HomeOutlinedIcon />}>
-              {/* Nested menu items */}
-              <MenuItem>
-                <Link to="/test1" />Test Item 1
-              </MenuItem>
-              <MenuItem>
-                <Link to="/test2" />Test Item 2
-              </MenuItem>
-            </SubMenu>
-
             {/* Section Title */}
             <Typography
               variant="h6"
@@ -181,21 +170,21 @@ const Sidebar = () => {
 
             {/* Menu items under "Data" */}
             <Item
-              title="Manage Team"
+              title="Employees"
               to="/team"
               icon={<PeopleOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
             />
             <Item
-              title="Contacts Information"
+              title="Customers"
               to="/contacts"
               icon={<ContactsOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
             />
             <Item
-              title="Invoices Balances"
+              title="Orders"
               to="/invoices"
               icon={<ReceiptOutlinedIcon />}
               selected={selected}
@@ -213,7 +202,7 @@ const Sidebar = () => {
 
             {/* Menu items under "Pages" */}
             <Item
-              title="Profile Form"
+              title="Profile"
               to="/form"
               icon={<PersonOutlinedIcon />}
               selected={selected}
@@ -227,7 +216,7 @@ const Sidebar = () => {
               setSelected={setSelected}
             />
             <Item
-              title="FAQ Page"
+              title="Support"
               to="/faq"
               icon={<HelpOutlineOutlinedIcon />}
               selected={selected}
